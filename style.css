@@ -1,0 +1,37 @@
+html {
+    background: #c9c9c9;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+
+h1 {
+ font-size: 3em;
+ margin: 0;
+ text-align: center;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+article {
+    border-top: 1px solid #ccc;
+}
+
+#newsletter-signup {
+    margin: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.blogtext {
+    border-bottom: 1px solid #ccc;
+}
