@@ -128,5 +128,6 @@ article {
 
     .DAW-article {
         padding: 5 px;
+        justify-content: space-evenly;
     }
 }
