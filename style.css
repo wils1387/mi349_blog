@@ -20,6 +20,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #newsletter-signup {
@@ -107,4 +108,21 @@ article {
 
 .blogtext {
     border-bottom: 1px solid #ccc;
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+    img {
+        width: 50%;
+        padding-right: 10px;
+        float: left;
+    }
+
+    button {
+        width: 60%;
+    }
+
+    body {
+        margin: 0;
+    }
 }
