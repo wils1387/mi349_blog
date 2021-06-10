@@ -15,13 +15,15 @@
         <h1 id="sitetitle">Austin Wilson MI349 Blog</h1>
     </header>  
     
-    <nav id="homescreen-nav">
-        <ul>
-            <li><a href="index.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <section class="navbar">
+        <nav>
+            <ul class="navbar-ul">
+                <li class="navbar-li"><a href="index.html">Blog</a></li>
+                <li class="navbar-li"><a href="about.html">About</a></li>
+                <li class="navbar-li"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
 
     <main>
         <article class="blogtext">
@@ -44,7 +46,7 @@
                 one dimensional while learning and isn’t nearly as powerful or useful as other easily acquirable and 
                 operable DAW’s such as Reaper.</p>
         </article>
-        <table class="blogtext">
+        <!--<table class="blogtext">
             <tr>
                 <th>DAW</th>
                 <th>Description</th>
@@ -65,7 +67,35 @@
                 <td>Audacity ||</td>
                 <td>Amatuer focused, low barrier to entry, not very powerful</td>
             </tr>
-        </table>
+        </table>-->
+        <section class="DAW-table">
+            <article class="DAW-article">
+                <h3>Ableton Live</h3>
+                <p>
+                    Producer focused with great MIDI and live capabilities  
+                </p>
+            </article>
+            <article class="DAW-article">
+                <h3>Reaper</h3>
+                <p>
+                    Recording and mixing focused with a modern, but recognizable interface  
+                </p>
+            </article>
+            <article class="DAW-article">
+                <h3>Pro Tools</h3>
+                <p>
+                    Recording and mixing focused, industry standard, feels dated and obtuse  
+                </p>
+            </article>
+            <article class="DAW-article">
+                <h3>Audacity</h3>
+                <p>
+                    Amatuer focused, low barrier to entry, not very powerful  
+                </p>
+            </article>
+                
+
+        </section>
         <article class="blogtext">
             <h2>My Favorite Video Game of the Last 10 Years</h2>
             <p><img src="Images/OuterWilds.jpg" alt="Outer Wilds cover art"></p>
@@ -89,7 +119,10 @@
             <label>Sign up for my newsletter:
                 <input type="text">
             </label>
-            <button>Subscribe</button>
+            <div id="button-div">
+                <button>Subscribe</button>
+            </div>
+            
         </form>
     </main>
 </body>
