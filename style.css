@@ -76,7 +76,7 @@ button {
     background: #d9d9d9
 }
 
-.DAW-article{
+.DAW-article {
     background: #c9c9c9;
     padding: 20px;
 }
@@ -113,16 +113,20 @@ article {
 /* Media Queries */
 @media (max-width: 400px) {
     img {
-        width: 50%;
+        width: 40%;
         padding-right: 10px;
         float: left;
     }
 
     button {
-        width: 60%;
+        width: 80%;
     }
 
     body {
         margin: 0;
+    }
+
+    .DAW-article {
+        padding: 5 px;
     }
 }
