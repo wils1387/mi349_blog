@@ -134,4 +134,9 @@ article {
     .navbar {
         font-size: 1.5em;
     }
+
+    #this-is-me {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
 }
