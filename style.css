@@ -62,7 +62,7 @@ button {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;   
+    justify-content: flex-start;   
     
 }
 
@@ -72,7 +72,7 @@ button {
 
 .DAW-table{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     background: #d9d9d9
 }
 
@@ -133,6 +133,7 @@ article {
 
     .navbar {
         font-size: 1.5em;
+        justify-content: space-evenly;
     }
 
     #this-is-me {
